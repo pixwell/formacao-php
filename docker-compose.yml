@@ -4,8 +4,9 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: php-apache
+    working_dir: /var/www/html
     volumes:
-      - ./public:/var/www/html
+      - ./:/var/www/html
     ports:
       - "8000:80"
     depends_on:

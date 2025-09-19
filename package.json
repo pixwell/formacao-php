@@ -1,0 +1,22 @@
+{
+  "name": "formacao-php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixwell/formacao-php.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pixwell/formacao-php/issues"
+  },
+  "homepage": "https://github.com/pixwell/formacao-php#readme"
+}
