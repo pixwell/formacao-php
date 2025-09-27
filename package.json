@@ -1,6 +1,19 @@
 {
   "name": "formacao-php",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.php"
+  "description": "Projeto Portifólio Dev",
+  "homepage": "https://github.com/pixwell/formacao-php#readme",
+  "bugs": {
+    "url": "https://github.com/pixwell/formacao-php/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixwell/formacao-php.git"
+  },
+  "license": "ISC",
+  "author": "Marcia Silva",
+  "type": "commonjs",
+  "main": "index.php",
+  "scripts": {
+  }
 }
