@@ -19,10 +19,10 @@ services:
     container_name: mariadb
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: app_db
-      MYSQL_USER: app_user
-      MYSQL_PASSWORD: secret
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USERNAME}
     volumes:
       - mariadb_data:/var/lib/mysql
     ports:
@@ -36,7 +36,10 @@ services:
     restart: always
     environment:
       PMA_HOST: mariadb
-      MYSQL_ROOT_PASSWORD: root
+      PMA_PORT: 3306
+      PMA_USER: ${DB_USERNAME}
+      PMA_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
     ports:
       - "8080:80"
     depends_on:
