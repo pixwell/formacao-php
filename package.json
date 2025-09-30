@@ -15,5 +15,15 @@
   "type": "commonjs",
   "main": "index.php",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-tailwind": "npx @tailwindcss/cli --input ./css/dev/style.dev.css --output ./css/style.css",
+    "watch-tailwind": "npx @tailwindcss/cli --input ./css/dev/style.dev.css --output ./css/style.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "@tailwindcss/postcss": "^4.1.13",
+    "tailwindcss": "^4.1.13",
+    "vite": "^7.1.7"
   }
 }
