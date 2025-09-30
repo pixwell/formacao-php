@@ -17,8 +17,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build-tailwind": "npx @tailwindcss/cli --input ./css/dev/style.dev.css --output ./css/style.css",
-    "watch-tailwind": "npx @tailwindcss/cli --input ./css/dev/style.dev.css --output ./css/style.css --watch"
+    "build-tailwind": "npx @tailwindcss/cli --input css/style.css --output dist/css/style.css",
+    "watch-tailwind": "npx @tailwindcss/cli --input css/style.css --output dist/css/style.css --watch"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.13",
