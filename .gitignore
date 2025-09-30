@@ -4,7 +4,7 @@ nbproject/
 .tmp.drivedownload/
 .tmp.driveupload/
 ubuntu-xenial-16.04-cloudimg-console.log
-/vendor/
+vendor/
 .vscode/
 error.log
 access.log
