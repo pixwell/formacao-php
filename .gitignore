@@ -8,4 +8,5 @@ vendor/
 .vscode/
 error.log
 access.log
+.env
 package-lock.json
