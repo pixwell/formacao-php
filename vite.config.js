@@ -10,7 +10,7 @@ export default defineConfig({
     rollupOptions: {
       input: 'css/style.css', // Força entrada CSS
       output: {
-        assetFileNames: 'style.css' // Nome fixo
+        assetFileNames: 'css/style.css' // Nome fixo
       }
     }
   }
